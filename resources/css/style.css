@@ -33,3 +33,32 @@ nav span{
 a {
   color: black;
 }
+
+.content {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+
+}
+
+.column {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+
+
+}
+
+
+.column.large {
+  width: 630px;
+
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
