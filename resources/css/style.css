@@ -49,7 +49,6 @@ a {
 
 }
 
-
 .column.large {
   width: 630px;
 
@@ -61,4 +60,37 @@ a {
 
 .column.small {
   width: 240px;
+}
+
+.image-content {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.narrative{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+.lead-story .image-content {
+  background-image: url("../../resources/images/img-story-main.png");
+  font-size: 40px;
+}
+
+.cat-ceo.image-content {
+  background-image: url("../../resources/images/img-story-1.png");
+}
+
+.image-content.ad1 {
+  background-image: url("../../resources/images/img-story-2.png");
+}
+
+.image-content.ad2 {
+  background-image: url("../../resources/images/img-story-3.png");
 }
