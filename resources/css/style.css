@@ -36,14 +36,12 @@ a {
 
 .content {
   display: flex;
-  border: 1px solid black;
   justify-content: space-between;
 
 }
 
 .column {
   display: flex;
-  border: 1px solid black;
   flex-direction: column;
 
 
@@ -69,6 +67,7 @@ a {
   font-size: 30px;
   color: white;
   height: 300px;
+  text-align: center;
 }
 
 .narrative{
@@ -81,6 +80,7 @@ a {
 .lead-story .image-content {
   background-image: url("../../resources/images/img-story-main.png");
   font-size: 40px;
+  text-align: left;
 }
 
 .cat-ceo.image-content {
@@ -93,4 +93,10 @@ a {
 
 .image-content.ad2 {
   background-image: url("../../resources/images/img-story-3.png");
+}
+
+.stories{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
