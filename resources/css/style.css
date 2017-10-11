@@ -7,6 +7,9 @@ header {
   width: 100%;
   border-bottom: 1px solid black;
   height: 80px;
+  position: fixed;
+  background-color: white;
+  z-index: 10;
 }
 
 header nav {
@@ -37,6 +40,8 @@ a {
 .content {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 100px;
 
 }
 
@@ -133,6 +138,8 @@ footer {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  position: relative;
+  top: 100px;
 }
 
 footer nav {
